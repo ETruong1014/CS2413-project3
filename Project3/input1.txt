@@ -1,0 +1,201 @@
+100
+en.wikipedia.org
+youtube.com
+amazon.com
+facebook.com
+twitter.com
+fandom.com
+pinterest.com
+imdb.com
+reddit.com
+yelp.com
+instagram.com
+ebay.com
+walmart.com
+craigslist.org
+healthline.com
+tripadvisor.com
+linkedin.com
+webmd.com
+netflix.com
+apple.com
+homedepot.com
+mail.yahoo.com
+cnn.com
+etsy.com
+google.com
+yahoo.com
+indeed.com
+target.com
+microsoft.com
+nytimes.com
+mayoclinic.org
+espn.com
+usps.com
+quizlet.com
+gamepedia.com
+lowes.com
+irs.gov
+nih.gov
+merriam-webster.com
+steampowered.com
+mapquest.com
+foxnews.com
+allrecipes.com
+quora.com
+aol.com
+britannica.com
+live.com
+bestbuy.com
+rottentomatoes.com
+ca.gov
+play.google.com
+cnet.com
+roblox.com
+usnews.com
+zillow.com
+businessinsider.com
+bulbagarden.net
+paypal.com
+finance.yahoo.com
+genius.com
+usatoday.com
+realtor.com
+medicalnewstoday.com
+fedex.com
+bankofamerica.com
+washingtonpost.com
+investopedia.com
+speedtest.net
+spotify.com
+cdc.gov
+chase.com
+hulu.com
+xfinity.com
+msn.com
+dictionary.com
+weather.com
+ups.com
+verizon.com
+forbes.com
+wowhead.com
+expedia.com
+urbandictionary.com
+foodnetwork.com
+nbcnews.com
+macys.com
+apartments.com
+ign.com
+capitalone.com
+costco.com
+theguardian.com
+cnbc.com
+glassdoor.com
+yellowpages.com
+att.com
+bbc.com
+khanacademy.org
+ny.gov
+twitch.tv
+adobe.com
+cbssports.com
+0 4 60 22 85 63 
+1 2 49 86 
+2 1 83 
+3 1 2 
+4 9 66 55 69 91 31 80 55 14 51 
+5 2 47 72 
+6 9 81 28 19 2 92 0 80 43 88 
+7 3 16 89 6 
+8 6 93 33 97 62 92 24 
+9 4 27 61 54 74 
+10 10 37 77 6 2 61 73 60 5 5 2 
+11 2 57 29 
+12 4 9 89 56 32 
+13 3 38 33 10 
+14 6 64 14 66 86 27 44 
+15 3 20 33 54 
+16 10 99 23 51 90 38 38 93 54 54 17 
+17 9 74 58 93 4 42 94 62 84 70 
+18 7 43 81 25 3 88 9 12 
+19 8 79 31 50 18 59 19 10 64 
+20 8 15 86 19 79 14 7 58 71 
+21 6 58 66 46 64 11 80 
+22 9 55 63 25 0 41 82 51 55 24 
+23 1 97 
+24 2 49 4 
+25 1 13 
+26 10 33 13 46 73 1 24 28 82 53 19 
+27 5 77 63 0 82 85 
+28 1 25 
+29 6 73 14 1 88 25 50 
+30 7 78 70 18 12 18 41 55 
+31 5 98 91 75 78 96 
+32 1 39 
+33 5 91 68 35 92 69 
+34 6 86 1 36 59 41 10 
+35 2 45 54 
+36 9 4 18 2 41 33 74 94 26 22 
+37 4 91 4 1 86 
+38 4 9 40 18 90 
+39 10 78 58 97 46 3 2 1 62 68 98 
+40 6 97 3 88 88 31 55 
+41 3 74 6 40 
+42 6 44 80 18 27 94 95 
+43 9 79 1 0 0 44 29 82 27 76 
+44 10 37 57 49 18 94 89 34 43 49 95 
+45 6 17 82 90 18 94 51 
+46 8 10 38 59 12 95 60 29 27 
+47 3 99 78 5 
+48 1 8 
+49 7 66 48 21 12 88 67 60 
+50 4 95 68 44 96 
+51 4 76 7 34 20 
+52 7 45 58 99 60 26 47 35 
+53 10 25 93 40 98 73 90 98 24 95 54 
+54 3 15 6 91 
+55 3 50 28 3 
+56 9 34 74 11 69 17 5 86 38 12 
+57 10 30 93 41 96 57 59 35 96 55 60 
+58 9 96 83 77 85 31 79 1 98 79 
+59 7 7 31 60 88 26 27 75 
+60 8 47 81 50 15 45 65 37 40 
+61 10 9 57 46 50 57 25 83 0 58 66 
+62 1 12 
+63 1 35 
+64 1 80 
+65 10 48 27 81 88 56 26 29 69 15 91 
+66 2 50 57 
+67 10 38 0 82 65 7 37 44 60 85 48 
+68 10 11 96 70 81 67 11 39 19 60 43 
+69 10 67 77 43 43 25 18 56 1 77 16 
+70 2 40 50 
+71 3 6 40 32 
+72 10 26 87 83 16 94 26 65 53 64 11 
+73 9 32 17 64 32 87 13 55 3 5 
+74 10 27 37 68 18 33 47 52 35 70 41 
+75 7 46 84 51 0 17 79 11 
+76 2 33 99 
+77 1 95 
+78 1 32 
+79 9 10 16 97 7 88 5 45 43 72 
+80 7 94 35 34 96 74 31 44 
+81 10 0 4 26 43 63 47 45 62 41 32 
+82 4 40 19 42 80 
+83 2 5 38 
+84 6 12 86 31 61 68 96 
+85 2 14 44 
+86 9 28 35 37 39 28 85 49 29 28 
+87 5 81 20 34 5 37 
+88 3 3 47 93 
+89 6 64 53 63 11 14 95 
+90 5 9 21 70 84 70 
+91 6 90 32 20 42 95 8 
+92 2 70 59 
+93 6 74 50 8 36 78 91 
+94 5 30 21 54 43 8 
+95 8 67 13 70 61 49 97 76 13 
+96 7 16 43 60 31 39 31 39 
+97 6 89 99 53 18 84 56 
+98 3 46 49 36 
+99 1 1   

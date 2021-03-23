@@ -49,6 +49,7 @@ public:
     bool operator < (myString& B);
     myString& operator = (myString& B);
     myString& operator = (char* B);
+    ~myString();
 };
 
 // outputs a given string A
@@ -215,6 +216,12 @@ bool myString::operator > (myString& B) {
 	return greater;
 }
 
+//destructor
+myString::~myString() {
+	if (strArray != NULL) delete [] strArray;
+	size = 0;
+}
+
 // get one token from redirected input and return that string (alphanumeric)
 char* getNextToken () {
 	char* str = new char[20]; //assumes a max token size of 20
@@ -225,7 +232,7 @@ char* getNextToken () {
 	while (!cin.eof()) { //iterates until the end of the input
 		cin.get(c); //gets the current char
 		if (!cin.eof ()) {
-			if ((c != '\n') && (c != ' ')) { //if the current char is a letter, a period, or a hyphen, add to str and increment index
+			if ((c != '\n') && (c != ' ')) { //if the current char is a letter, a number, a period, or a hyphen, add to str and increment index
 				if ( ((c >= 'a') && (c <= 'z')) ||
 					 ((c >= 'A') && (c <= 'Z')) ||
 					 ((c >= '0') && (c <= '9')) ||
@@ -383,21 +390,38 @@ int main () {
     // display all the incoming nodes here
 	myString* incomingNodes; //array of myString objects to store incoming links
 	for (int i = 0; i < numSites; i++) { //iterate through every site in myWeb
-		incomingNodes = new myString[numSites - 1]; //initialize for maximum possible values, excludes current link itself
+		incomingNodes = new myString[numSites]; //initialize for number of sites
+		int maxSize = numSites; //max size of incomingNodes array, initialize as number of sites
 		int count = 0; //number of incoming links
 
 		for (int j = 0; j < numSites; j++) { //checks every site for a link to the current site
 			for (int k = 0; k < myWeb[j].getNumLinks(); k++) { //iterates through the hyperLinks array of the site at index j
 				if (myWeb[i].getURL() == (*myWeb[j].getHyperLink(k)).getURL()) { //if the current site is contained in the hyperLinks array
+					if (count == maxSize) { //incomingNodes array is full
+						maxSize += 10; //add 10 to maxSize
+						myString* tempStrings = new myString[maxSize]; //temporary array to hold URLs
+						for (int l = 0; l < maxSize; l++) { //copy values from incomingNodes to temp array
+							tempStrings[i] = incomingNodes[i];
+						}
+						delete [] incomingNodes; //delete full array
+						incomingNodes = new myString[maxSize]; //new incomingNodes array with updated size
+						for (int l = 0; l < maxSize; l++) { //copy values from temp array into new incomingNodes array
+							incomingNodes[i] = tempStrings[i];
+						}
+						delete [] tempStrings; //delete temp array;
+					}
+
 					incomingNodes[count] = myWeb[j].getURL(); //adds incoming link's URL to incomingNodes
 					count++; //increment number of incoming links
 				}
 			}
 		}
+
 		cout << myWeb[i].getURL() << ": " << count << endl; //prints name of site and number of incoming links
 		for (int j = 0; j < count; j++) { //prints out every site that links to the current site
 			cout << "** " << incomingNodes[j] << endl;
 		}
+
 		delete [] incomingNodes; //deletes current array of incoming nodes
 		cout << endl;
 	}
